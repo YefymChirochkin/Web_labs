@@ -1,0 +1,56 @@
+.attraction-catalog {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0 2rem 6rem;
+  width: 100%;
+}
+
+.attraction-item {
+  display: flex;
+  justify-content: space-between;
+  border: white 0.15rem solid;
+  margin: 3rem 0 0 4.5rem;
+  background-color: white;
+  width: 80%;
+  height: 3rem;
+}
+
+.attraction-info {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 1.5rem;
+}
+
+.min_age::before {
+  content: "Min age: ";
+}
+
+.price_of_ticket_in_usd::before {
+  content: "Price: ";
+}
+
+.price_of_ticket_in_usd::after {
+  content: " $";
+}
+.operate-buttons {
+  display: flex;
+  align-items: center;
+  margin-right: 3rem;
+}
+
+.operate-buttons button {
+  width: 5rem;
+}
+
+.edit-button {
+  width: 100%;
+  margin-right: 3rem;
+}
+
+.delete-button {
+  width: 100%;
+  background-color: red;
+  color: white;
+}

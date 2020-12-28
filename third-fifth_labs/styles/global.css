@@ -1,0 +1,43 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  background-color: grey;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  color: white;
+  background-color: grey;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 0 1.5rem 1rem;
+  border-bottom: 0.1rem solid grey;
+  width: 100%;
+  background-color: white;
+}
+
+.logo {
+  max-width: 300px;
+  max-height: 300px;
+  margin-left: 40%;
+}
+
+.attractions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hide {
+  display: none;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+}

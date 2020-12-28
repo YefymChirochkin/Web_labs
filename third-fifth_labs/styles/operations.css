@@ -1,0 +1,47 @@
+.attraction-operations {
+  display: flex;
+  flex-direction: row;
+  font-size: 200%;
+  justify-content: space-around;
+  background-color: white;
+  padding: 2rem 0 2rem 2rem;
+  font-size: 150%;
+}
+
+.sort {
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+}
+
+.sort-variants button {
+  width: 70%;
+  height: 50%;
+}
+
+.total-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 50%;
+}
+
+.total-price label {
+  margin: 0rem 4rem 0rem 2rem;
+}
+.total-price button {
+  width: 12rem;
+  height: 3rem;
+}
+.search-filter {
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+}
+
+.find-button {
+  padding: 2%;
+  width: 7rem;
+  margin-left: 10%;
+  padding: 3%;
+}

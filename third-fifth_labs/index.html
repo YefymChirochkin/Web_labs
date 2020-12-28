@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web lab 3-5</title>
+    <link rel="icon"
+        type="image/x-icon">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Logo_Attraction_Media.png" alt="logo" class="logo">
+    </header>
+    <container class="attraction">
+        <div class="attraction-operations">
+            <div class="sort">
+                <div class="sort-variants">
+                    <button id="sort-name-button" class="sort-name-button">A-Z</button>
+                    <button id="sort-reverse-name-button" class="sort-reverse-name-button">Z-A</button>
+                </div>
+            </div>
+            <div class="total-price">
+                <button id="total-price-button">Total price</button>
+                <label id="total-price-output"></label>
+            </div>
+            <div class="search-filter">
+                <input type="text" id="find-attraction" name="find-attraction" class="find-attraction"
+                    placeholder="Enter name">
+                <button class="find-button" id="find-button">Find</button>
+            </div>
+        </div>
+        <container class="post-put-attraction">
+            <h2 id="saving-type" class="saving-type">Create</h2>
+            <form class="form-post-put-attraction">
+                <div class="form-input">
+                    <label for="name">Name</label>
+                    <input id="input-name" name="name" type="text" required>
+                </div>
+                <div class="form-input">
+                    <label for="minAge">Min age</label>
+                    <input id="input-min-age" name="minAge" type="number" step=1 required>
+                </div>
+                <div class="form-input">
+                    <label for="price">Price</label>
+                    <input id="input-price" name="price" type="number" step=10 required>
+                </div>
+                <button type="button" id="post-button" class="post-button">Create</button>
+                <div class="edit-buttons">                
+                    <button type="button" id="put-edited-button" class="put-edited-button hide">Save</button>
+                    <button type="button" id="cancel-edit-button" class="cancel-edit-button hide">Cancel</button>
+                </div>
+            </form>
+        </container>
+        <ul id="attraction-catalog" class="attraction-catalog"></ul>
+    </container>
+    <script src="scripts/index.js"></script>
+</body>
+</html>

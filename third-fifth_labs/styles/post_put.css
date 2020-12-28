@@ -1,0 +1,33 @@
+.post-put-attraction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  border-top: 2px solid grey;
+}
+.saving-type {
+  align-self: center;
+  margin: 1rem 0 0.5rem 0;
+}
+.form-post-put-attraction {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 75%;
+  margin: 1rem 0;
+  margin-left: 14rem;
+}
+.form-input {
+  display: flex;
+  flex-direction: column;
+}
+.form-post-put-attraction button {
+  width: 4rem;
+}
+.edit-buttons {
+  display: flex;
+  margin-right: 10rem;
+}
+.cancel-edit-button {
+  margin-left: 2rem;
+}
